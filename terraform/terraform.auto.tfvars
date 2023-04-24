@@ -16,24 +16,24 @@ preferred_number_of_private_subnets = 4
 
 environment = "dev"
 
-ami-web = "ami-00a45107f7c3455a5"
+ami-web = "ami-0f334d0e33aa7e43b"
 
-ami-bastion = "ami-0dbc99375eba56ff4"
+ami-bastion = "ami-066a48e8a6e8ab8cf"
 
-ami-nginx = "ami-010bd88cc8f5997f3"
+ami-nginx = "ami-0c8d12f50dca057de"
 
-ami-sonar = "ami-0f8bd95a744e074b8"
+ami-sonar = "ami-07e057d60b8c79940"
 
-keypair = "devops"
+keypair = "busolami"
 
 master-password = "devopspblproject"
 
-master-username = "david"
+master-username = "busola"
 
-account_no = "696742900004"
+account_no = "007655524319"
 
 tags = {
-  Owner-Email     = "infradev-segun@darey.io"
+  Owner-Email     = "oguneye.lami@gmail.com"
   Managed-By      = "Terraform"
   Billing-Account = "1234567890"
 }
